@@ -1,0 +1,44 @@
+.about-me-section{
+  margin-right: 30px;
+  margin-left: 80px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 400px 20px 1fr;
+  column-gap: 20px;
+}
+
+.background-photo{
+  margin-left: -30px;
+  height: 490px;
+  border-radius: 8px;
+
+}
+
+.may-photo{
+  margin-left: -350px;
+  border-radius: 8px;
+  height: 400px;
+  margin-top: 40px;
+}
+
+.introduction-container{
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 70px;
+}
+
+.introduction-header{
+  font-family: Victor Mono;
+  font-size: 40px;
+  color: #e58896;
+  font-weight: 500;
+}
+
+.introduction-text{
+  margin-top: -20px;
+  font-family: Cardo;
+  font-size: 20px;
+  color: #486085;
+  font-weight: 500;
+}
+    

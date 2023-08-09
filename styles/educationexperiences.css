@@ -1,0 +1,99 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+.education-rectangle{
+  height: 450px;
+  width: 100vw;
+  background-color: #486085;
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  align-items: center;
+}
+
+.education-section{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-header-container{
+  margin-top: 0px;
+}
+
+.education-header{
+  font-family: Victor Mono;
+  font-size: 35px;
+  color: #f5f1e6;
+  font-weight: 600;
+}
+
+.college{
+  margin-top: 0px;
+  font-family: Lato;
+  font-size: 17px;
+  color: #f5f1e6;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+
+.graduation{
+  font-family: Lato;
+  font-size: 17px;
+  color: #f5f1e6;
+  margin-bottom: 35px;
+  font-style: italic;
+}
+
+.major, .minor{
+  margin-top: -15px;
+  font-family: Lato;
+  font-size: 17px;
+  color: #f5f1e6;
+  font-weight: 400;
+}
+
+.highschool{
+  margin-top: 50px;
+  font-family: Lato;
+  font-size: 17px;
+  color: #f5f1e6;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+
+.coursework-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.coursework-header{
+  font-family: Victor Mono;
+  font-size: 35px;
+  color: #f5f1e6;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.coursework-details{
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  margin-top: -30px;
+}
+
+.subheader{
+  font-family: Lato;
+  font-size: 15px;
+  color: #f5f1e6;
+  font-weight: 600;
+}
+
+.coursework-list{
+  font-family: Lato;
+  font-size: 13px;
+  color: #f5f1e6;
+}
+
+
+

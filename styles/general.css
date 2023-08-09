@@ -1,0 +1,116 @@
+body{
+  background-color: #f8f8f8;
+  height: 3000px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #f8f8f8;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.homepage-button{
+  border: none;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.homepage-button:hover{
+  opacity: 0.8;
+}
+
+.name-container{
+  margin-left: 30px;
+}
+
+.firstname{
+  display: inline;
+  text-align: center;
+  font-family: Playfair Display SC;
+  font-size: 60px;
+  color: #486085;
+  font-weight: 500;
+}
+
+.lastname{
+  margin-left: 15px;
+  display: inline;
+  text-align: center;
+  font-family: Playfair Display SC;
+  font-size: 60px;
+  color: #486085;
+  font-weight: 500;
+}
+
+.header-menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+  width: 500px;
+}
+
+.about-me-button{
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: none;
+  font-family: cardo;
+  font-size: 20px;
+  color: #486085;
+  font-weight: 700;
+}
+
+.about-me-button:hover{
+  text-decoration: underline;
+}
+
+.education-experiences-button{
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: none;
+  font-family: cardo;
+  font-size: 20px;
+  color: #486085;
+  font-weight: 700;
+}
+
+.education-experiences-button:hover{
+  text-decoration: underline;
+}
+
+.art-button{
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: none;
+  font-family: cardo;
+  font-size: 20px;
+  color: #486085;
+  font-weight: 700;
+}
+
+.art-button:hover{
+  text-decoration: underline;
+}
+
+.contact-button{
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: none;
+  font-family: Cardo;
+  font-size: 20px;
+  color: #486085;
+  font-weight: 700;
+}
+
+.contact-button:hover{
+  text-decoration: underline;
+}
