@@ -24,27 +24,3 @@ closeButton.addEventListener('click', () => {
 });
 
 
-//booklet overlay
-  const booklet = document.getElementById("booklet1");
-  const prevBtn = document.getElementById("prevBtn1");
-  const nextBtn = document.getElementById("nextBtn1");
-  const closeBtn = document.getElementById("closeBtn1");
-
-  let currentPage = 0;
-
-  function flipPage(direction) {
-    if (direction === "prev") {
-      currentPage = Math.max(currentPage - 1, 0);
-    } else if (direction === "next") {
-      currentPage = Math.min(currentPage + 1, booklet.children.length - 1);
-    }
-    booklet.style.transform = `rotateY(${currentPage * -180}deg)`;
-  }
-
-  prevBtn.addEventListener("click", () => flipPage("prev"));
-  nextBtn.addEventListener("click", () => flipPage("next"));
-  closeBtn.addEventListener("click", () => {
-    document.getElementById("bookletOverlay1").classList.remove("active");
-  });
-
-
