@@ -4,16 +4,20 @@
 }
 
 .education-rectangle{
-  height: 530px;
-  width: 100vw;
+  width: 80%;
   background-color: #486085;
-  display: grid;
-  grid-template-columns: 600px 1fr;
-  align-items: center;
+  min-height: 100vh; /* Set a minimum height to fill the viewport */
+  padding: 20px; /* Add padding to create space for the text */
+  padding-bottom: 40px;
+  box-sizing: border-box; /* Ensure padding is included in the height calculation */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top of the rectangle */
+  margin:auto;
 }
 
 .education-section{
-  margin-left: 63px;
+  margin-left: 7%;
   display: flex;
   flex-direction: column;
 }
@@ -55,7 +59,7 @@
 }
 
 .highschool{
-  margin-top: 50px;
+  margin-top: 8%;
   font-family: Lato;
   font-size: 17px;
   color: #f5f1e6;
@@ -66,6 +70,7 @@
 .coursework-section{
   display: flex;
   flex-direction: column;
+  padding-left: 7%;
 }
 
 .coursework-header-container{
@@ -81,8 +86,8 @@
 }
 
 .coursework-details{
-  display: grid;
-  grid-template-columns: 350px 1fr;
+  display: flex;
+  flex-direction: column;
   margin-top: 0px;
 }
 
@@ -102,15 +107,21 @@
 }
 
 .work-rectangle{
-  height: 750px;
-  margin-top: 50px;
+  width: 80%; 
+  margin: auto;
+  margin-top: 10%;
   border: 3px solid #486085;
+  min-height: 100vh; /* Set a minimum height to fill the viewport */
+  padding: 20px; /* Add padding to create space for the text */
+  box-sizing: border-box; /* Ensure padding is included in the height calculation */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top of the rectangle */
 }
 
 .work-header-container{
-  margin-top: 50px;
-  margin-left: 60px;
-  margin-bottom: 50px;
+  margin-top: 2%;
+  margin-left: 7%;
 }
 
 .work-header{
@@ -121,7 +132,10 @@
 }
 
 .work-details{
-  margin-left: 60px;
+  margin-left: 7%;
+  margin-right: 10%;
+  flex: 1; /* Allow the content to expand within the rectangle */
+  overflow-y: auto; /* Add vertical scroll if needed */
 }
 
 .job{
@@ -141,6 +155,47 @@
   font-size: 16px;
   color: #486085;
 }
+
+@media (max-width: 425px){
+  .education-header{
+    font-size: 30px;
+  }
+  
+  .college, .graduation, .major, .minor, .highschool{
+    font-size: 12px;
+  }
+
+  .coursework-header{
+    font-size: 30px;
+  }
+  
+  .course-subheader{
+    font-size: 14px;
+  }
+  
+  .coursework-list{
+    font-size: 12px;
+    margin-left: -15px;
+  }
+
+  .coursework-header{
+    font-size: 30px;
+  }
+  
+  .course-subheader{
+    font-size: 14px;
+  }
+  
+  .coursework-list{
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
 
 
 
