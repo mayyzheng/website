@@ -25,6 +25,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
 
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta charset="UTF-8">
   </head>
 
   <body>
@@ -34,8 +36,7 @@
       <div class = "name-container">
         <a href="index.html">
           <button class = "homepage-button">
-            <p class = "firstname"> May</p>
-            <p class = "lastname"> Zheng </p>
+            <p class = "name"> May Zheng</p>
           </button>
         </a>
       </div>
@@ -43,7 +44,7 @@
       <div class = "header-menu">
         <a href="aboutme.html">
           <button class = "about-me-button">
-            <u>about me</u>
+            about me
           </button>
         </a>
         <a href = "educationexperiences.html">
@@ -63,48 +64,76 @@
         </a>
         <a href="https://www.linkedin.com/in/may-zheng-32513a1ab/" target="_blank" class="linkedin-link">
           <button class = "linkedin-button">
-              <img class = "linkedin-icon" src = "images/linkedin.png" >
+              <img class = "linkedin-icon" src = "images/linkedin.png">
           </button>
         </a>
       </div>
-    </div>
+
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropdown-button">
+            <img class = "dropdown-icon" src = "images/dropdown-icon.png">
+          </button>
+          <div class="dropdown-content">
+            <a href="aboutme.html">about me</a>
+            <a href="educationexperiences.html">education & experiences</a>
+            <a href="art.html">art</a>
+            <a href="mailto:mayzheng04@gmail.com" class="email-link">
+              <button class = "email-button custom-button">
+                <img class = "email-icon" src = "images/email.png">
+              </button>
+            </a>
+            <a href="https://www.linkedin.com/in/may-zheng-32513a1ab/" target="_blank" class="linkedin-link">
+              <button class = "linkedin-button custom-button">
+                <img class = "linkedin-icon" src = "images/linkedin.png" >
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> 
 
     <div class = "about-me-section">
-      <img class="background-photo" src = "images/background2.jpg">
-      <img class="may-photo" src = "images/aboutme.JPG">
-      <div class = "introduction-container">
-        <p class = "introduction-header">
-          Hi, I'm May!
-        </p>
-        <p class = "introduction-text">
-          I am currently a second-year student at UCLA studying math 
-          of computation.  
-          I love anything in the realms of art, math, and technology and
-          I'm particularly interested in the ways that they connect. 
-          In my free time, I like to read, cook, and draw. 
-          I also enjoy sunsets and long walks- pictured on the left is
-          me taking a long walk at sunset :) 
-        </p>
+      <div class = "doodles">
+        <div class = "doodle1">
+          <img class="bird1" src = "images/bird1.png">
+        </div>
+        <div class = "doodle2">
+          <img class="bird2" src = "images/bird2.png">
+        </div>
+        <div class = "doodle3">
+          <img class="bird3" src = "images/bird3.png">
+        </div>
+        <div class = "doodle4">
+          <img class="bird4" src = "images/bird4.png">
+        </div>
+        <div class = "doodle5">
+          <img class="clouds1" src = "images/clouds.png">
+        </div>
+        <div class = "doodle6">
+          <img class="clouds2" src = "images/clouds2.png">
+        </div>
       </div>
-      <div class = "doodle1">
-        <img class="clouds1" src = "images/clouds.png">
+      <div class = "content">
+        <div class = "photos">
+          <img class="background-photo" src = "images/background2.jpg">
+          <img class="may-photo" src = "images/aboutme.JPG">
+        </div>
+        <div class = "introduction-container">
+          <p class = "introduction-header">
+            Hi, I'm May!
+          </p>
+          <p class = "introduction-text">
+            I am currently a second-year student at UCLA studying math 
+            of computation.  
+            I love anything in the realms of art, math, and technology and
+            I'm interested in the ways that they connect. 
+            In my free time, I like going on walks & hikes, skiing, 
+            cooking with friends, and playing tennis. 
+          </p>
+        </div>
       </div>
-      <div class = "doodle2">
-        <img class="clouds2" src = "images/clouds2.png">
-      </div>
-      <div class = "doodle3">
-        <img class="bird1" src = "images/bird1.png">
-      </div>
-      <div class = "doodle4">
-        <img class="bird2" src = "images/bird2.png">
-      </div>
-      <div class = "doodle5">
-        <img class="bird3" src = "images/bird3.png">
-      </div>
-      <div class = "doodle6">
-        <img class="bird4" src = "images/bird4.png">
-      </div>
-    </div>
+    </div> 
 
     <div class = "section-2">
       <img class = "field" src = "images/aboutme2.JPG">
@@ -126,10 +155,12 @@
           food
         </div>
         <ul class="favorites-list">
-          <li>tomato-egg over rice (番茄炒鸡蛋）</li>
-          <li>kimchi jjigae</li>
-          <li>tomato & feta pasta</li>
-          <li>everything bagel with cream cheese</li>
+          <li>anything with rice</li>
+          <li>k bbq</li>
+          <li>poke bowls</li>
+          <li>pasta</li>
+          <li>all fruit</li>
+          <li>mint choc chip ice cream</li>
         </ul>
       </div>
       <div class = "section">
@@ -145,7 +176,7 @@
           <li>10 Things I Hate About You</li>  
         </ul>
       </div>
-      <div class = "section">
+      <div class = "section books">
         <div class = "favorites-header">
           books
         </div>
@@ -154,22 +185,24 @@
           <li> <span class = "italics"> Crying in H Mart </span> by Michelle Zauner</li>
           <li> <span class = "italics"> A Little Life </span> by Hanya Yanagihara</li>
           <li> <span class = "italics"> On Earth We're Briefly Gorgeous </span> by Ocean Vuong</li>
+          <li> <span class = "italics"> Pachinko </span> by Min Jin Lee</li>
         </ul>
       </div>
       <div class = "section">
         <div class = "favorites-header">
-          songs 
+          artists 
         </div>
         <ul class="favorites-list">
-          <li>About You &#183; The 1975</li>
-          <li>North &#183; Clairo</li>
-          <li>the way things go &#183; beabadoobee</li>
-          <li>vampire &#183; Olivia Rodrigo</li>
-          <li>Run BTS &#183; BTS</li>
-          <li>August &#183; Taylor Swift</li>
+          <li>Clairo</li>
+          <li>Gracie Abrams</li>
+          <li>Olivia Rodrigo</li>
+          <li>Taylor Swift</li>
+          <li>Phoebe Bridgers</li>
+          <li>NIKI</li>
+          <li>SZA</li>
         </ul>
       </div>
     </div>
-
+    <script src="general.js"></script>
   </body>
 </html>
