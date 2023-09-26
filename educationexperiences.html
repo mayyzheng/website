@@ -19,7 +19,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
-
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta charset="UTF-8">
   </head>
 
   <body>
@@ -29,8 +31,7 @@
       <div class = "name-container">
         <a href="index.html">
           <button class = "homepage-button">
-            <p class = "firstname"> May</p>
-            <p class = "lastname"> Zheng </p>
+            <p class = "name"> May Zheng</p>
           </button>
         </a>
       </div>
@@ -43,7 +44,7 @@
         </a>
         <a href = "educationexperiences.html">
           <button class = "education-experiences-button">
-            <u>education & experiences</u>
+            education & experiences
           </button>
         </a>
         <a href = "art.html">
@@ -58,9 +59,32 @@
         </a>
         <a href="https://www.linkedin.com/in/may-zheng-32513a1ab/" target="_blank" class="linkedin-link">
           <button class = "linkedin-button">
-              <img class = "linkedin-icon" src = "images/linkedin.png" >
+              <img class = "linkedin-icon" src = "images/linkedin.png">
           </button>
         </a>
+      </div>
+
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropdown-button">
+            <img class = "dropdown-icon" src = "images/dropdown-icon.png">
+          </button>
+          <div class="dropdown-content">
+            <a href="aboutme.html">about me</a>
+            <a href="educationexperiences.html">education & experiences</a>
+            <a href="art.html">art</a>
+            <a href="mailto:mayzheng04@gmail.com" class="email-link">
+              <button class = "email-button custom-button">
+                <img class = "email-icon" src = "images/email.png">
+              </button>
+            </a>
+            <a href="https://www.linkedin.com/in/may-zheng-32513a1ab/" target="_blank" class="linkedin-link">
+              <button class = "linkedin-button custom-button">
+                <img class = "linkedin-icon" src = "images/linkedin.png" >
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -122,18 +146,19 @@
             </p>
             <ul class="coursework-list">
               <li>CS 31: Introduction to C++</li>
-              <li>CS 32: Data Structures and Algorithms</li>
+              <li>CS 32: Introduction to Data Structures and Algorithms</li>
+              <li>CS 33: Introduction to Computer Organization</li>
             </ul>
           </div>
 
           <div class = "coursework-column2">
             <p class = "course-subheader">
-              Misc
+              Miscellaneous
             </p>
             <ul class="coursework-list">
               <li>Stats 10: Introduction to Statistical Reasoning</li>
               <li>Chem 20A: Chemical Structure</li>
-              <li>Physics 1A: Mechanics</li>
+              <li>Cluster M1: Food- A Lens for Environment and Sustainability</li>
             </ul>
             <p class = "course-subheader">
               Upcoming Coursework (will be taken before summer 2024)
@@ -141,6 +166,7 @@
             <ul class="coursework-list">
               <li>Math 115B: Proof-Based Linear Algebra (cont. of Math 115AH)</li>
               <li>Math 131AH & Math 131BH: Real Analysis (Honors)</li>
+              <li>Physics 1A: Mechanics</li>
               <li>Physics 1B: Oscillations, Waves, Electric and Magnetic Fields</li>
             </ul>
           </div>
@@ -162,9 +188,9 @@
           <ul class="job-description">
             <li>adept to taking accurate orders and efficiently crafting customized 
               coffee and tea beverages to meet customer preferences</li>
-            <li>offers exceptional customer service, collaborates with team members, 
-              and contributes to a positive and welcoming store environment</li>
-            <li>maintains a clean workspace, handles transactions professionally, and adheres to health and safety guidelines</li>
+            <li>offered exceptional customer service, collaborated with team members, 
+              and contributed to a positive and welcoming store environment</li>
+            <li>maintained a clean workspace, handled transactions professionally, and adhered to health and safety guidelines</li>
           </ul>
         </div>
         <div class = "job">
@@ -172,9 +198,9 @@
             Granite State Kids | Tennis Coach
           </p>
           <ul class="job-description">
-            <li>develop and implement age-appropriate tennis drills and activities for children and teens</li>
-            <li>teach fundamental tennis techniques through exercises that promote skill improvement, coordination, and physical fitness</li>
-            <li>foster a positive and inclusive atmosphere by encouraging sportsmanship, teamwork, and confidence</li>
+            <li>developed and implemented age-appropriate tennis drills and activities for children and teens</li>
+            <li>taught fundamental tennis techniques through exercises that promoted skill improvement, coordination, and physical fitness</li>
+            <li>fostered a positive and inclusive atmosphere by encouraging sportsmanship, teamwork, and confidence</li>
           </ul>
         </div>
         <div class = "job">
@@ -187,17 +213,17 @@
               obstetrics and gynaecology, and the Covid-19 vaccination clinic
             </li>
             <li>
-              observe and obtain an overview of the healthcare workflow by shadowing and assisting
+              observed and obtained an overview of the healthcare workflow by shadowing and assisting
               doctors, medical assistants, licensed practical nurses and registered nurses
             </li>
             <li>
-              assist with rooming patients and room turnover using infection prevention techniques
+              assisted with rooming patients and room turnover using infection prevention techniques
             </li>
             <li>
-              help administrative staff with rescheduling appointments and faxing documents
+              helped administrative staff with rescheduling appointments and faxing documents
             </li>
             <li>
-              gain experience in direct patient communication, taking vitals, and Covid-19 screening
+              gained experience in direct patient communication, taking vitals, and Covid-19 screening
             </li>
           </ul>
         </div>
@@ -215,7 +241,7 @@
         </div>
       </div>
     </div>
-
+    <script src="general.js"></script>
   </body>
 
 </html>
