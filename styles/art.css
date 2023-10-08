@@ -102,8 +102,8 @@
     margin-right: 100px;
   }
   .art-grid-bottomrow{
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
     column-gap: 40px;
   }
 }
