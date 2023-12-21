@@ -34,10 +34,14 @@ body{
   display: inline;
   text-align: center;
   font-family: Playfair Display SC;
-  font-size: 60px;
-  color: #486085;
+  font-size: 30px;
+  /* color: #486085; */
   font-weight: 500;
   white-space: nowrap;
+}
+
+.name:hover{
+  color: #f088a7;
 }
 
 .header-menu{
@@ -45,8 +49,8 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-right: 50px;
-  width: 550px;
+  margin-right: 90px;
+  width: 450px;
 }
 
 .about-me-button{
@@ -55,15 +59,15 @@ body{
   border: none;
   font-family: cardo;
   font-size: 20px;
-  color: #486085;
+  /* color: #486085; */
   font-weight: 700;
 }
 
 .about-me-button:hover{
-  text-decoration: underline;
+  color: #f088a7;
 }
 
-.education-experiences-button{
+/* .education-experiences-button{
   cursor: pointer;
   background-color: #f8f8f8;
   border: none;
@@ -75,7 +79,7 @@ body{
 
 .education-experiences-button:hover{
   text-decoration: underline;
-}
+} */
 
 .art-button{
   cursor: pointer;
@@ -83,12 +87,12 @@ body{
   border: none;
   font-family: cardo;
   font-size: 20px;
-  color: #486085;
+  /* color: #486085; */
   font-weight: 700;
 }
 
 .art-button:hover{
-  text-decoration: underline;
+  color: #f088a7;
 }
 
 .email-button{
@@ -137,7 +141,8 @@ body{
   .header-menu {
     /* width: 100%;  */
     justify-content: space-around; 
-    margin-left: 60px;
+    margin-left: 100px;
+    width: 400px;
   }
 
   .about-me-button, .education-experiences-button, .art-button{
@@ -196,7 +201,38 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
 }
 
+.footer{
+  margin: auto;
+  margin-top: 100px;
+  width: 50%;
+  min-width: 250px;
+}
+
+.footer-image{
+  max-width: 100%;
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 40%;
+  margin-top: -7%;
+}
+
+.email-footer{
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: none;
+}
+
+.linkedin-footer{
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: none;
+}
 
