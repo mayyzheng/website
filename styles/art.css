@@ -20,7 +20,7 @@
   margin-top: 50px;
   margin-bottom: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 90px;
   margin-left: 300px;
   margin-right: 300px;
@@ -35,7 +35,7 @@
   font-family: Victor Mono;
   font-size: 15px;
   font-weight: 400;
-  color: #486085;
+  color: black;
 }
 
 .overlay {
@@ -86,10 +86,6 @@
     margin-left: 125px;
     margin-right: 125px;
   }
-  .art-grid-bottomrow{
-    margin-left: 350px;
-    margin-right: 350px;
-  }
 }
 
 @media (max-width: 1300px){
@@ -100,11 +96,6 @@
   .art-grid-vertical {
     margin-left: 100px;
     margin-right: 100px;
-  }
-  .art-grid-bottomrow{
-    margin-left: 100px;
-    margin-right: 100px;
-    column-gap: 40px;
   }
 }
 
@@ -123,12 +114,9 @@
     margin-left: 100px;
     margin-right: 100px;
   }
-  .art-grid-bottomrow{
-    margin-left: 100px;
-    margin-right: 100px;
-  }
   .one.artwork-preview, .two.artwork-preview, .four.artwork-preview, .five.artwork-preview,
-  .eight.artwork-preview, .nine.artwork-preview, .eleven.artwork-preview, .twelve.artwork-preview{
+  .eight.artwork-preview, .nine.artwork-preview, .eleven.artwork-preview, .twelve.artwork-preview, 
+  .fifteen.artwork-preview, .sixteen.artwork-preview{
     margin-bottom: 50px;
   }
 
@@ -140,11 +128,6 @@
     margin-right: 50px;
   }
   .art-grid-vertical {
-    margin-left: 50px;
-    margin-right: 50px;
-    column-gap: 15px;
-  }
-  .art-grid-bottomrow{
     margin-left: 50px;
     margin-right: 50px;
     column-gap: 15px;
@@ -166,15 +149,12 @@
     margin-left: 50px;
     margin-right: 50px;
   }
-  .art-grid-bottomrow{
-    grid-template-columns: 1fr; 
-    margin-left: 50px;
-    margin-right: 50px;
-  }
   .six.artwork-preview, .thirteen.artwork-preview, .fifteen.artwork-preview{
     margin-bottom: 50px;
   }
 }
+
+
 
 
 
