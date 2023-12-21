@@ -2,6 +2,7 @@
   width: 90%; 
   position: relative;
   margin: auto;
+  margin-top: 3%;
 }
 
 .doodles{
@@ -54,7 +55,7 @@
   margin-right: 0%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
   .clouds1, .clouds2, .bird1, .bird2, .bird3, .bird4 {
     display: none;
   }
@@ -102,8 +103,9 @@
   margin-top: -20px;
   margin-right: 60px;
   font-family: Cardo;
-  font-size: 22px;
-  color: #486085;
+  font-size: 18px;
+  color: black;
+  /* color: #486085; */
   font-weight: 500;
 }
 
@@ -135,7 +137,7 @@
 .caption{
   font-family: Victor Mono;
   font-size: 20px;
-  color: #486085;
+  color: black;
 }
 
 .caption2-container{
@@ -191,16 +193,16 @@
   }
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 995px) {
   .introduction-header{
     font-size: 35px;
   }
   .introduction-text{
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
   .favorites {
     flex-direction: column;
   }
@@ -278,7 +280,7 @@
   justify-content: left;
   font-family: Victor Mono;
   font-size: 20px;
-  color: #486085;
+  color: black;
   font-weight: 600;
   margin-left: 30px;
 }
@@ -286,7 +288,7 @@
 .favorites-list{
   font-family: Lato;
   font-size: 15px;
-  color: #486085;
+  color: black;
 }
 
 .italics{
