@@ -35,7 +35,7 @@ body{
   text-align: center;
   font-family: Playfair Display SC;
   font-size: 30px;
-  /* color: #486085; */
+  color: black;
   font-weight: 500;
   white-space: nowrap;
 }
@@ -59,7 +59,7 @@ body{
   border: none;
   font-family: cardo;
   font-size: 20px;
-  /* color: #486085; */
+  color: black;
   font-weight: 700;
 }
 
@@ -87,7 +87,7 @@ body{
   border: none;
   font-family: cardo;
   font-size: 20px;
-  /* color: #486085; */
+  color: black;
   font-weight: 700;
 }
 
